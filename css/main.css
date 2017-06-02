@@ -1,0 +1,295 @@
+/*
+ * Estilos de tu proyecto
+ */
+body{
+ 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	overflow-x: hidden;
+}
+ 
+.profile-text{	
+	margin: 0 auto;
+	color: whitesmoke;
+}
+.profile-text p{
+	text-align: center;
+	color: whitesmoke;
+}
+.navBar.shrink{
+	min-height: 50px;
+	height: 60px;
+	padding: 4px;
+}
+.navBar{
+ 	background-color: #2C3E50;
+ 	overflow: auto;
+	position: fixed;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	
+}
+
+.navBar h1{
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	float: left;
+ 	color: whitesmoke;
+ 	font-weight: 900;
+ 	font-size: 28px;
+ 	margin-left: 95px;
+}
+.menu{
+ 	float: right;
+ 	text-align: right;
+}
+.menu a{
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	color: whitesmoke;
+ 	padding: 20px 20px;
+}
+.menu a:hover{
+	background-color: #18BC9C;
+	color: whitesmoke;
+
+}
+
+/*******header*********/
+.headers{
+	background-color: #18BC9C;
+	width: 100%;
+	height: 800px;
+	padding-top: 100px;
+	align-content: center;
+	text-align: center;
+}
+
+.headers h1{
+	text-align: center;
+	color: whitesmoke;
+	font-weight: 600;
+	font-size: 65px;
+}
+
+img.profile{
+	width: 256px;
+	height: 256px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.about{
+	background-color: #18BC9C;
+}
+
+.headers .line{
+ 	 width:60px; 
+ 	 height:4px; 
+ 	 background: whitesmoke;
+ 	 display: inline-block;
+ 	 margin-bottom: 4px;
+}
+.headers i{
+	width: 30px;
+    height: 30px;
+	color: whitesmoke; 
+	font-size: 25px;
+}
+/******portafolio**********/
+.portafolio{
+	color: #2C3E50;
+	text-align: center;
+
+}
+.portafolio h1{
+	color: #2C3E50;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 20px;
+}
+.portafolio .line{
+ 	 width:60px; 
+ 	 height:4px; 
+ 	 background: #2C3E50;
+ 	 display: inline-block;
+ 	 margin-bottom: 4px;
+}
+.portafolio i{
+	width: 30px;
+    height: 30px;
+	color: #2C3E50;
+	font-size: 25px;
+}
+.hide{
+  display: none;
+}
+.grid{
+	position: relative;
+	overflow: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #18BC9C;
+  padding: 12px;
+}
+
+.grid:hover .overlay {
+  opacity: 0.8;
+}
+.grid i {
+  color: whitesmoke;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#modalId{
+  background-color: #2C3E50;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#modalId .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: pink;
+}
+.close img{
+  width: 50px;
+}
+/*****about********/
+.about{
+	color: whitesmoke;
+	text-align: center;
+}
+.about h1{
+	text-align: center;
+	font-size: 35px;
+}
+.about button {
+    background-color: #18BC9C; 
+    border: 2px solid whitesmoke; 
+    border-radius: 10px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.about button i{
+	font-size: 20px;
+}
+.about button:hover {
+    background-color: whitesmoke; 
+    border: 2px solid #18BC9C; 
+    color: #18BC9C;
+    padding: 10px 32px;  
+}
+.about button i:hover{
+	color: #18BC9C;
+}
+.about .line{
+ 	 width:60px; 
+ 	 height:4px; 
+ 	 background: whitesmoke; 
+ 	 display: inline-block;
+ 	 margin-bottom: 4px;
+}
+.about i{
+	width: 30px;
+    height: 30px;
+	color: whitesmoke; 
+	font-size: 25px;
+}
+.about p{
+	padding: 10px 30px;
+	text-align: left;
+}
+
+/******contact me********/
+input{
+	width: 70%;
+	margin: 0 auto; 
+	border: none;
+    border-bottom: 1px solid #a9adac;
+    padding: 10px;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.contact{
+	text-align: center;
+	color: #E6E8E8;
+}
+
+.contact h1{
+	text-align: center;
+	font-size: 35px;
+}
+
+.contact button{
+	background-color: #18BC9C; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.contact .line{
+ 	 width:60px; 
+ 	 height:4px; 
+ 	 background: #2C3E50;
+ 	 display: inline-block;
+ 	 margin-bottom: 4px;
+}
+.contact i{
+	width: 30px;
+    height: 30px;
+    font-size: 25px;
+	color: #2C3E50;
+}
+
+/******footer********/
+footer{
+	background-color: #2C3E50;
+	color: whitesmoke;
+	text-align: center;
+	padding: 0;
+}
+footer i{
+	size: 20px;
+	color: whitesmoke;
+	padding: 5px;
+}
+footer h2{
+	padding: 20px 0;
+}
+footer a{
+	color: #18BC9C;
+}
+.final{
+	background-color: #1a2430;
+	padding: 15px;
+	margin-top: 40px;
+}
